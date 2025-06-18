@@ -9,7 +9,7 @@ function parseSimple(events) {
         let title = e.title;
         for (const [keyword, tag] of Object.entries(roles)) {
             if (e.title.includes(keyword)) {
-                title += `\n ${tag}`;
+                title += `\n${tag}`;
             }
         }
         return `**${e.type}** - _Active_\n${title}\n`;
