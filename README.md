@@ -13,6 +13,9 @@ Finds and sends all active disruptions and strikes from the NS into discord chan
     "storingId": "Discord channel ID to post disruptions",
     "roles": {
       "keyword (optional)": "<@&roleid>"
+    },
+    "stations": {
+      "station to look for"
     }
 }
 ```
